@@ -50,8 +50,9 @@ export default function Home() {
           <div className="hero-content">
             <span className="hero-badge">Digital Convergence Educator</span>
             <h1 className="hero-title font-serif-heading">
-              융합으로 공부와<br />
-              학습을 <span className="highlight">재미있게</span>.
+              융합으로<br />
+              공부와 학습을<br />
+              <span className="highlight">재미있게</span>.
             </h1>
             <p className="hero-description">
               인문학과 테크놀로지, 그리고 경영 시뮬레이션을 넘나들며 배움의 지평을 넓힙니다. 
@@ -65,7 +66,7 @@ export default function Home() {
 
           <div className="hero-visual">
             <div className="profile-card-wrapper">
-              <div className="avatar-placeholder">🎓</div>
+              <img src="/convergence.png" alt="융합 에너지 시각화" style={{ width: '100%', height: '160px', objectFit: 'cover', borderRadius: '12px', marginBottom: '0.5rem', border: '1px solid var(--border-color)' }} />
               <div className="profile-details">
                 <span className="profile-role">Lecturer</span>
                 <h3 className="profile-name font-serif-heading">김현빈</h3>
@@ -182,7 +183,8 @@ export default function Home() {
               <p className="lecture-desc">
                 체험형 경영 시뮬레이션 엔진을 기반으로,<br />
                 참가자들이 직접 가상의 회사를 창업하고 운영하며<br />
-                마케팅, 생산, 재무제표 작성 및 분석 등 비즈니스의 전반적인 순환 루프를 몸소 깨닫는<br />
+                마케팅, 생산, 재무제표 작성 및 분석 등<br />
+                비즈니스의 전반적인 순환 루프를 몸소 깨닫는<br />
                 실전 비즈니스 역량 강화 워크숍입니다.
               </p>
             </div>
